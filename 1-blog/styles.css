@@ -1,0 +1,103 @@
+html{
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);;
+}
+body{
+    margin: 0;
+    font-weight: 400;
+    color: white;
+}
+
+nav{
+    margin: 80px 0;
+
+}
+nav button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #4B5563;
+    padding: 7px 12px 6px 10px;
+    margin-right: 11px;
+}
+nav ul{
+    font-size: 16px;
+    line-height: 19px;
+    list-style: none;
+}
+
+nav > a{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+input{
+    font-size: 16px;
+    line-height: 19px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    background-color: #283241ea;
+    padding-left: 49px;
+}
+
+h1{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+footer{
+    color: #ADB1B7;
+    padding: 77px 0;
+}
+
+.date{
+    color: #ADB1B7;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 14px;
+}
+
+.authorInfo{
+    margin-bottom: 28px;
+    line-height: 28px;
+}
+
+.authorName{
+    font-size: 16px;
+}
+
+.role{
+    color: #ADB1B7;
+    font-size: 14px;
+}
+
+#sectionImg{
+    margin-bottom: 68px;
+}
+
+.upperText{
+    margin-top: 0;
+    font-size:  20px;
+    line-height: 32px;
+}
+
+.lowerText{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+
+
+

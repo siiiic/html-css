@@ -1,0 +1,96 @@
+html {
+    background-color: #F39494;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+
+form{
+    background-color: #FFFEFE;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 225px 0;
+}
+
+h1{
+    color: #333333;;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    padding: 72px 0 0 0;
+    margin: 0;
+}
+
+nav{
+    color: #666666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+nav > p{
+    margin: 0 0 47px 0;
+}
+
+:placeholder-shown{
+    color: #999999;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+}
+
+input{
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    caret-color: #089FE0;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+button{
+    background: #089FE0;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+label{
+    color: #666666;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#org{
+    margin-bottom: 21px;
+}
+
+#name_surName{
+    margin-bottom: 22px;
+}
+
+#email{
+    margin-bottom: 22px ;
+}
+
+#login{
+  color: #089FE0;
+}
+
+#conditions a{
+    color: #089FE0;
+    text-decoration: none;
+}
+
+#conditions{
+    padding-bottom: 91px;
+}
+

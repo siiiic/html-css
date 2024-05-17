@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+    <link rel="stylesheet" href="style-form.css" />
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <h1>Регистрация</h1>
+        <nav>
+          <p>Уже есть аккаунт?<a href="/login" id="login"> Войти</a></p>
+        </nav>
+        <div id="org">
+          <input
+            type="text"
+            name="orgName"
+            id="orgName"
+            placeholder="Организация"
+            required
+          />
+        </div>
+        <div id="name_surName">
+          <label for="name"></label>
+          <input type="text" name="name" id="name" placeholder="Имя" required />
+          <label for="surname"></label>
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Фамилия"
+          />
+        </div>
+        <div id="email">
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <button>Зарегистрироваться</button>
+        <div id="conditions">
+          <input type="checkbox" name="termsOfUse" required />
+          <label for="termsOfUse"
+            >Я прочитал и принимаю <a href="*">Условия использования</a></label
+          >
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
