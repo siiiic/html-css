@@ -2,53 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style-form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>register</title>
   </head>
   <body>
     <main>
       <form action="#">
+        <div>
         <h1>Регистрация</h1>
-        <nav>
-          <p>Уже есть аккаунт?<a href="/login" id="login"> Войти</a></p>
-        </nav>
-        <div id="org">
+        <p>Уже есть аккаунт?<a href="/login" id="login"> Войти</a></p>
+        </div>
           <input
             type="text"
             name="orgName"
-            id="orgName"
             placeholder="Организация"
             required
           />
-        </div>
-        <div id="name_surName">
-          <label for="name"></label>
-          <input type="text" name="name" id="name" placeholder="Имя" required />
-          <label for="surname"></label>
+          <div class="name_surName">
+          <input type="text" name="name" class="name" placeholder="Имя" required />
           <input
             type="text"
             name="surname"
-            id="surname"
             placeholder="Фамилия"
           />
-        </div>
-        <div id="email">
-          <label for="email"></label>
+          </div>
           <input
             type="email"
             name="email"
-            id="email"
             placeholder="E-mail"
             required
-          />
-        </div>
+          /> 
         <button>Зарегистрироваться</button>
-        <div id="conditions">
-          <input type="checkbox" name="termsOfUse" required />
+        <div class="check">
+          <input type="checkbox" name="termsOfUse" id="termsOfUse" class="custom" required/>
           <label for="termsOfUse"
-            >Я прочитал и принимаю <a href="*">Условия использования</a></label
+            >Я прочитал и принимаю<a href="*">Условия использования</a></label
           >
+          </div>
         </div>
       </form>
     </main>
